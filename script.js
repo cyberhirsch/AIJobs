@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const shareTextRaw = t.share_text;
         const shareTextFormatted = shareTextRaw.replace('{archetype}', translatedArchetype).replace('{score}', futureProofScore);
-        const shareUrl = 'https://cyberhirsch.github.io/AIJobs/';
+        const shareUrl = 'https://cyberhirsch.github.io/AI_survey/';
 
         const copyBtn = document.createElement('button');
         copyBtn.className = 'share-btn primary';
