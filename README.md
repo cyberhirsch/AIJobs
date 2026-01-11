@@ -1,5 +1,7 @@
 ## An Empirical Study on Work, Identity, and Sentiment
 
+**Live Research Survey:** [https://cyberhirsch.github.io/AI_survey/](https://cyberhirsch.github.io/AI_survey/)
+
 ## 1. Research Objective
 This project is an empirical investigation into the **"Great Transition"** of human labor. We are moving from an era of manual execution to an era of machine orchestration. This project seeks to capture a real-time snapshot of how this transition is reshaping the human side of the economy—specifically focusing on the creative and engineering sectors.
 
@@ -64,4 +66,4 @@ Through this data, we aim to test several key hypotheses:
     - *Metric*: This "Control Group" allows us to measure the baseline of human efficiency and satisfaction against the augmented group, mitigating the risk of only sampling "AI Enthusiasts."
 
 ## 6. Conclusion
-This is not merely a survey; it is a repository of human sentiment at the dawn of the AGl era. By categorizing the workforce into archetypes and analyzing these nine dimensions, we are creating a framework to understand how humanity will adapt, resist, or merge with Artificial Intelligence.
+This study aims to contribute to the ongoing dialogue regarding human sentiment during this period of technological change. By exploring these initial archetypes and dimensions, we hope to provide a useful data point for further research into how professionals navigate the evolving relationship between human skill and artificial intelligence.
