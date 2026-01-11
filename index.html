@@ -15,22 +15,59 @@
     <div class="background-gradient"></div>
 
     <main class="container">
+        <header class="language-switcher">
+            <select id="lang-select">
+                <option value="en">English</option>
+                <option value="ar">العربية (Arabic)</option>
+                <option value="zh">中文 (Chinese)</option>
+                <option value="de">Deutsch (German)</option>
+                <option value="fr">Français (French)</option>
+                <option value="es">Español (Social)</option>
+            </select>
+        </header>
+
         <header class="hero">
-            <h1>Defining the <span class="highlight">Human Element</span></h1>
-            <p class="subtitle">In the age of Artificial Intelligence, where do you stand?</p>
+            <h1 id="hero-title">Defining the <span class="highlight">Human Element</span></h1>
+            <p id="hero-subtitle" class="subtitle">In the age of Artificial Intelligence, where do you stand?</p>
         </header>
 
         <section id="intro-card" class="glass-card">
-            <h2>The Survey</h2>
-            <p>We are creating boxes. Not to confine you, but to understand the shape of our new reality. Tell us about
+            <h2 id="intro-title">The Survey</h2>
+            <p id="intro-text">We are creating boxes. Not to confine you, but to understand the shape of our new
+                reality. Tell us about
                 your work, and we'll tell you who you are.</p>
-            <button id="start-btn" class="primary-btn">Discover Your Archetype</button>
+
+            <div class="consent-wrapper">
+                <input type="checkbox" id="consent-check">
+                <label for="consent-check" id="consent-label">I agree that my anonymized responses may be used for
+                    research purposes.</label>
+            </div>
+
+            <button id="start-btn" class="primary-btn" disabled>Discover Your Archetype</button>
         </section>
 
         <div id="question-container" class="hidden">
             <!-- Questions will be injected here by JS -->
         </div>
+
+        <footer class="site-footer">
+            <p id="footer-text">&copy; 2026 S.Hirsch Media University. All Rights Reserved.</p>
+            <div class="legal-links">
+                <a href="javascript:void(0)" id="privacy-btn">Privacy Policy</a>
+                <a href="javascript:void(0)" id="imprint-btn">Imprint</a>
+            </div>
+        </footer>
     </main>
+
+    <div id="legal-modal" class="modal-overlay hidden">
+        <div class="modal-content glass-card">
+            <button id="close-modal" class="close-btn">&times;</button>
+            <div id="modal-body" class="modal-inner">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 
