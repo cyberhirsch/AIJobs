@@ -225,6 +225,15 @@ const translations = {
                         { text: "The acceleration of bias and misinformation.", delta: { ethics: 5, anxiety: 3 } },
                         { text: "I don't know / I haven't thought about the risks.", delta: { ethics: 0, anxiety: 0 } }
                     ]
+                },
+                {
+                    text: "How should governments approach the regulation of AI development?",
+                    options: [
+                        { text: "Minimal regulation: Let innovation thrive at all costs.", delta: { efficiency: 5, sentiment: 2 } },
+                        { text: "Moderate regulation: Protect workers but encourage progress.", delta: { ethics: 5, resilience: 2 } },
+                        { text: "Strict regulation: Slow down development until ethics are solved.", delta: { ethics: 10, anxiety: 5, sentiment: -5 } },
+                        { text: "I don't know / Regulation is not the answer.", delta: { sentiment: 0 } }
+                    ]
                 }
             ],
             content: [
@@ -500,9 +509,18 @@ const translations = {
                     text: "Was ist das größte Risiko des KI-'Goldrausches'?",
                     options: [
                         { text: "Verlust der menschlichen Souveränität und Autonomie.", delta: { ethics: 8, resilience: 5, anxiety: 5 } },
-                        { text: "Massentierhaltung und wirtschaftlicher Zusammenbruch.", delta: { ethics: 2, anxiety: 8 } },
+                        { text: "Massenarbeitslosigkeit und wirtschaftlicher Zusammenbruch.", delta: { ethics: 2, anxiety: 8 } },
                         { text: "Die Beschleunigung von Voreingenommenheit und Fehlinformationen.", delta: { ethics: 5, anxiety: 3 } },
                         { text: "Weiß nicht / Ich habe nicht über die Risiken nachgedacht.", delta: { ethics: 0, anxiety: 0 } }
+                    ]
+                },
+                {
+                    text: "Wie sollten Regierungen die Regulierung der KI-Entwicklung angehen?",
+                    options: [
+                        { text: "Minimale Regulierung: Innovation um jeden Preis ermöglichen.", delta: { efficiency: 5, sentiment: 2 } },
+                        { text: "Moderate Regulierung: Arbeitnehmer schützen, aber Fortschritt fördern.", delta: { ethics: 5, resilience: 2 } },
+                        { text: "Strikte Regulierung: Entwicklung verlangsamen, bis ethische Fragen geklärt sind.", delta: { ethics: 10, anxiety: 5, sentiment: -5 } },
+                        { text: "Weiß nicht / Regulierung ist nicht die Lösung.", delta: { sentiment: 0 } }
                     ]
                 }
             ],
@@ -781,6 +799,15 @@ const translations = {
                         { text: "La aceleración del sesgo y la desinformación.", delta: { ethics: 5, anxiety: 3 } },
                         { text: "No lo sé / No he pensado en los riesgos.", delta: { ethics: 0, anxiety: 0 } }
                     ]
+                },
+                {
+                    text: "¿Cómo deberían abordar los gobiernos la regulación del desarrollo de la IA?",
+                    options: [
+                        { text: "Regulación mínima: Dejar que la innovación prospere a toda costa.", delta: { efficiency: 5, sentiment: 2 } },
+                        { text: "Regulación moderada: Proteger a los trabajadores pero fomentar el progreso.", delta: { ethics: 5, resilience: 2 } },
+                        { text: "Regulación estricta: Ralentizar el desarrollo hasta que se resuelva la ética.", delta: { ethics: 10, anxiety: 5, sentiment: -5 } },
+                        { text: "No lo sé / La regulación no es la respuesta.", delta: { sentiment: 0 } }
+                    ]
                 }
             ],
             content: [
@@ -1057,6 +1084,15 @@ const translations = {
                         { text: "Le chômage de masse et l'effondrement économique.", delta: { ethics: 2, anxiety: 8 } },
                         { text: "L'accélération des biais et de la désinformation.", delta: { ethics: 5, anxiety: 3 } },
                         { text: "Je ne sais pas / Je n'ai pas réfléchi aux risques.", delta: { ethics: 0, anxiety: 0 } }
+                    ]
+                },
+                {
+                    text: "Comment les gouvernements devraient-ils aborder la régulation du développement de l'IA ?",
+                    options: [
+                        { text: "Régulation minimale : Laisser l'innovation prospérer à tout prix.", delta: { efficiency: 5, sentiment: 2 } },
+                        { text: "Régulation modérée : Protéger les travailleurs tout en encourageant le progrès.", delta: { ethics: 5, resilience: 2 } },
+                        { text: "Régulation stricte : Ralentir le développement jusqu'à ce que l'éthique soit résolue.", delta: { ethics: 10, anxiety: 5, sentiment: -5 } },
+                        { text: "Je ne sais pas / La régulation n'est pas la réponse.", delta: { sentiment: 0 } }
                     ]
                 }
             ],
@@ -1335,6 +1371,15 @@ const translations = {
                         { text: "加速偏见和错误信息的传播。", delta: { ethics: 5, anxiety: 3 } },
                         { text: "不知道 / 我还没想过这些风险。", delta: { ethics: 0, anxiety: 0 } }
                     ]
+                },
+                {
+                    text: "政府应该如何处理人工智能开发的监管？",
+                    options: [
+                        { text: "最低限度监管：不惜一切代价让创新繁荣。", delta: { efficiency: 5, sentiment: 2 } },
+                        { text: "适度监管：保护工人，但鼓励进步。", delta: { ethics: 5, resilience: 2 } },
+                        { text: "严格监管：在伦理问题解决之前放慢开发速度。", delta: { ethics: 10, anxiety: 5, sentiment: -5 } },
+                        { text: "不知道 / 监管不是答案。", delta: { sentiment: 0 } }
+                    ]
                 }
             ],
             content: [
@@ -1611,6 +1656,15 @@ const translations = {
                         { text: "البطالة الجماعية والانهيار الاقتصادي.", delta: { ethics: 2, anxiety: 8 } },
                         { text: "تسارع الانحياز والمعلومات المضللة.", delta: { ethics: 5, anxiety: 3 } },
                         { text: "لا أعلم / لم أفكر في المخاطر بعد.", delta: { ethics: 0, anxiety: 0 } }
+                    ]
+                },
+                {
+                    text: "كيف ينبغي للحكومات التعامل مع تنظيم تطوير الذكاء الاصطناعي؟",
+                    options: [
+                        { text: "تنظيم أدنى: السماح للابتكار بالازدهار بأي ثمن.", delta: { efficiency: 5, sentiment: 2 } },
+                        { text: "تنظيم معتدل: حماية العمال مع تشجيع التقدم.", delta: { ethics: 5, resilience: 2 } },
+                        { text: "تنظيم صارم: إبطاء التطوير حتى يتم حل القضايا الأخلاقية.", delta: { ethics: 10, anxiety: 5, sentiment: -5 } },
+                        { text: "لا أعلم / التنظيم ليس هو الحل.", delta: { sentiment: 0 } }
                     ]
                 }
             ],
